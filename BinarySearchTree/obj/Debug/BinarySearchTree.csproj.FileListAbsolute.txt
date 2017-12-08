@@ -1,0 +1,7 @@
+D:\dotNet\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.dll
+D:\dotNet\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.pdb
+D:\dotNet\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.csprojResolveAssemblyReference.cache
+D:\dotNet\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.dll
+D:\dotNet\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.pdb
+D:\dotNet\BinarySearchTree\BinarySearchTree\bin\Debug\nunit.framework.dll
+D:\dotNet\BinarySearchTree\BinarySearchTree\bin\Debug\nunit.framework.xml

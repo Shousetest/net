@@ -1,0 +1,10 @@
+D:\dotNet\BinarySearchTree\BSTree.Console\bin\Debug\BSTree.Console.exe.config
+D:\dotNet\BinarySearchTree\BSTree.Console\bin\Debug\BSTree.Console.exe
+D:\dotNet\BinarySearchTree\BSTree.Console\bin\Debug\BSTree.Console.pdb
+D:\dotNet\BinarySearchTree\BSTree.Console\obj\Debug\BSTree.Console.exe
+D:\dotNet\BinarySearchTree\BSTree.Console\obj\Debug\BSTree.Console.pdb
+D:\dotNet\BinarySearchTree\BSTree.Console\obj\Debug\BSTree.Console.csprojResolveAssemblyReference.cache
+D:\dotNet\BinarySearchTree\BSTree.Console\bin\Debug\BinarySearchTree.dll
+D:\dotNet\BinarySearchTree\BSTree.Console\bin\Debug\BinarySearchTree.pdb
+D:\dotNet\BinarySearchTree\BSTree.Console\bin\Debug\nunit.framework.dll
+D:\dotNet\BinarySearchTree\BSTree.Console\bin\Debug\nunit.framework.xml
