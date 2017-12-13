@@ -49,29 +49,33 @@ namespace BSTree.Console
     {
         static void Main(string[] args)
         {
-            Point[] points = new Point[] {new Point(1,2), new Point(3,4), new Point(5,6), new Point(6,7), new Point(7,8) };
-            var tree = new Tree<Point>(new PointComparer());
-            foreach (Point point in points)
+            var storage = new StudentStorage("students.bin");
+            Tree<Student> storageStudents = storage.Load();
+
+            IEnumerable<Student> alices = storageStudents.Inorder().Where(node => node.Firstname == "Alice").OrderBy(node => node.Mark).Take(1);
+
+            Student[] students = new Student[] {
+                new Student("John", "Doe", "Math", new DateTime(), 10),
+                new Student("Jane", "Doe", "Math", new DateTime(), 9),
+                new Student("Alice", "Doe", "Math", new DateTime(), 8),
+                new Student("Alice", "Kali", "Math", new DateTime(), 7),
+            };
+
+            
+            Tree<Student> tree = new Tree<Student>(Comparer<Student>.Default);
+
+            foreach (Student student in students)
             {
-                tree.Insert(point);
+                tree.Insert(student);
             }
 
-            foreach (Point point in tree.Inorder(tree.Root))
+            IEnumerable<Student> alicesDef =  tree.Inorder().Where(node => node.Firstname == "Alice").OrderBy(node => node.Mark).Take(1);
+
+            foreach (Student alice in alicesDef)
             {
-                WriteLine(point);
+                WriteLine(alice.Firstname + " " + alice.Mark);
             }
-
-            foreach (Point point in tree.Postorder(tree.Root))
-            {
-                WriteLine(point);
-            }
-
-            foreach (Point point in tree.Preorder(tree.Root))
-            {
-                WriteLine(point);
-            }
-
-
+            
             ReadKey();
         }
     }
